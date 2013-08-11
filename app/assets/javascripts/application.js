@@ -10,6 +10,10 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery
-//= require jquery_ujs
-//= require_tree .
+// ****** The Following Lines were added for BigVideo jquery (these files were copied to app..assets..javascripts)
+//= require jquery-1.7.2.min
+//= require jquery-ui-1.8.22.custom.min
+//= require jquery.imagesloaded.min
+//= require video
+//= require bigvideo
+// *********************

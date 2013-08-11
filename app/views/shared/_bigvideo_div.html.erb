@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<!-- **DQ Remember to set the file permission on Amazon S3 so all users can read -->
+    <%= javascript_include_tag "application" %>
+    <script>
+      $(function() {
+            var BV = new $.BigVideo({useFlashForFirefox:false,controls:false,loop:true});
+      BV.init(); 
+	  BV.show('https://moremindfully.s3.amazonaws.com/Dewdrop.mp4',{ambient:true});     
+	  });
+	  
+    </script>

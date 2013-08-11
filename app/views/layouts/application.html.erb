@@ -1,14 +1,60 @@
 <!DOCTYPE html>
+<html lang="en" class="js canvas canvastext history pointerevents mti-helveticaneuew0145ligh-n4-active mti-helveticaneuew0175bold-n4-active mti-helveticaneuew01thin-n4-active mti-active">
 <html>
 <head>
-  <title>Developmindfulness</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>DevelopMindfulness.com | Have more moments. Create possibilities.</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  
+  <!-- DQ: https://github.com/videojs/video.js/blob/master/docs/setup.md -->
+  <link href="http://vjs.zencdn.net/4.1/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/4.1/video.js"></script>
+  
+  <!-- DQ: The following also as per the other site -->
+  <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <link href="chrome-extension://lnkdbjbjpnpjeciipoaflmpcddinpjjp/mytube.css" rel="stylesheet" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  
+  <!-- DQ: http://getbootstrap.com/getting-started/ -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+  
 </head>
-<body>
+<body>   
 
 <%= yield %>
+<section id="home" class="home">
+    <div class="content">
+      <h1>Good day. Every day.</h1>
+      <p class="subheading">Any.do is here to help you manage life in a simple clever &amp; fun way. </p>
+            <!--<a href="https://itunes.apple.com/us/app/cal-calendar-for-living/id648287824?ls=1&mt=8" target="_blank">-->
+          <!--<button class="btn-download cal">Download Cal</button>-->
+            <!--</a>-->
+    </div>
+</section>
+<div id="nav-container">
+		<nav id="top-nav">
+			<div class="content-section clearfix">
+				<div class="logo">
+                    <a href="#top">
+					    <img src="/images/anydo-logo.png" alt="Any.do">
+                    </a>
+				</div>
+				<ul class="links">
+					<li class="span3 app anydo" data-section="anydo"><a href="#anydo">Any.do</a></li>
+					<li class="span3 app cal" data-section="cal"><a href="#cal">Cal</a></li>
+					<li class="span3 app mail" data-section="coming-soon"><a href="#coming-soon">Mail</a></li>
+					<li class="span3 app memo" data-section="coming-soon"><a href="#coming-soon">Memo</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
 
 </body>
 </html>
