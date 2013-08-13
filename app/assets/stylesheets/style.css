@@ -295,6 +295,14 @@ body {
   position: relative;
   top: -40px;
 }
+.page-home .home .content_line2 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: -80px;
+}
 .page-home .home .btn-download {
   margin-top: 35px;
 }
@@ -304,6 +312,14 @@ body {
   color: #fff;
   z-index: 1100;
   position: relative;
+}
+.home h4 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  z-index: 1100;
+  position: relative;
+  font-size: 16px;
+  /* color: #707070; */
 }
 h1 {
   font-family: 'HelveticaNeueW01-Thin';
