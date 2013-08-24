@@ -76,6 +76,35 @@
 /* Transforms */
 /* Transitions */
 
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.screen {
+    position: relative;
+    height: 100%; 
+    width: 100%; /*  NOTE:numVideos/100%  */
+    float: left;
+    overflow: hidden;
+}
+.big-image {
+    min-width: 100%;
+    min-height: 100%; 
+    height: auto;
+    width: auto; 
+}
+/* ============================= */
 @font-face{
 	font-family:"HelveticaNeueW01-Thin";
 	src:url("Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
