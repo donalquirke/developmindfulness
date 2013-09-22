@@ -369,64 +369,11 @@ ul, menu, dir {
 	list-style-type: disc;
 }
 
-.main-video {
-    height: 85%;
-    width: 100%;
-    position: relative;
-    top: 50px;
-    left: 0;
-    overflow: hidden;	
-} 
-
-.content {
-	position: fixed;
-}
 
 
-#big-video-wrap {
-    height: 50%;
-    left: 0;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 100%;
-}
 
-#big-video-vid, #big-video-image {
-    position: relative;
-}
 
-#big-video-control-container {
-    bottom: 20px;
-    padding: 0 20px;
-    position: fixed;
-    width: 100%;
-}
 
-#big-video-wrap {
-	background-color: #000000;
-    position: relative;
-    overflow: hidden;
-	height: 90%;
-	width: 100%;	
-	font-size: 18.15px;
-	line-height: 1.6;
-	font-family: 'HelveticaNeueW01-45Ligh', sans-serif;
-	font-weight: 300;
-	-moz-box-sizing: border-box;
-	display: block;
-	color: #333333;
-}
-
-#big-video-vid, #big-video-image {
-	position: absolute;
-	font-size: 18.15px;
-	line-height: 1.6;
-	font-family: 'HelveticaNeueW01-45Ligh', sans-serif;
-	font-weight: 300;
-	box-sizing: border-box;
-	color: #333333;
-}
 
 
 
