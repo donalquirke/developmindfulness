@@ -36,15 +36,17 @@ body {
     font-size: 40px;
 	line-height: 1.8;
 	text-shadow: none;
+	
+	h2 {
+    color: white;
+    font-size: 33px;
+  line-height: 1.8; 
+  text-shadow: none;
+  font-weight: normal;
+  }
 }
 
-#main-banner h2 {
-    color: white;
-    font-size: 25px;
-	line-height: 1.8;	
-	text-shadow: none;
-	font-weight: normal;
-}
+
 
 #bottom-banner {
 	font-family: "proxima-nova",sans-serif;
