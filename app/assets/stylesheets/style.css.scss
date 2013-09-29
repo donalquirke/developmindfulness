@@ -33,18 +33,20 @@ body {
    	left: 0;
     margin-top: 45px;
     width: 100%;
+    max-width: 90%;
     z-index: 1;
 	
 	h4 {
+	  font-family: 'HelveticaNeueW01-Thin';
     color: white;
     text-align: center;
-    font-size: 21px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 0;
   }
   
   h1 {  
     font-family: 'HelveticaNeueW01-Thin';
-    font-weight: 100;
+    font-weight: 0;
     font-size: 50px;
     margin: 0;
     line-height: 1.1;
@@ -71,7 +73,7 @@ body {
 	color: #A9A9A9;
 	min-height: 100px;
 	background-color: black;
-	padding-top: 25px;
+	padding-top: 2%;
 }
 
 #container { 
@@ -91,16 +93,16 @@ body {
 
 #first-product-section {
   height: 525px;
-	padding-top: 90px;
-	padding-bottom: 90px;	
+	padding-top: 5.5%;
 	width: 100%;
+	max-width: 100%;
 }
 
 #second-product-section {
 	height: 525px;
 	padding-top: 0;
-	padding-bottom: 7px;	
 	width: 100%;
+	max-width: 100%;
 }
 
 #first-product-section #second-product-section h2 {
@@ -115,21 +117,7 @@ body {
 	display: block;
 }
 
-#product-section #second-product-section p {
-	padding-right: 20px;
-	margin: 23px 0 12px;
-	font-size: 18.15px;
-	line-height: 26px;
-	font-family: 'HelveticaNeueW01-45Ligh', sans-serif;
-	font-weight: 300;
-	color: #707070;
-	box-sizing: border-box;
-	display: block;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-}
+
 
 a {
 	color: #099acb;
@@ -139,7 +127,6 @@ a {
 .content-section {
 	width: 1024px;
 	margin: 0 auto;
-	padding: 75px 22px 75px;
 	position: relative;
 	display: block;
 	font-size: 18.15px;
@@ -164,7 +151,7 @@ a {
 	font-weight: 100;
 }
 
-.row-text {
+.first-row-text {
 	margin-top: 17.73333333333333px;
 	opacity: 0.7466666666666667;
 	margin-left: 0;	
@@ -177,7 +164,12 @@ a {
 	font-weight: 300;
 	font-family: 'HelveticaNeueW01-Thin';
 	width: 40.5%;
+	padding-left: 15%;
+}
 
+#second-row-text {
+  padding-left: 4%;
+  width: 28.5%;
 }
 
 
@@ -193,7 +185,8 @@ a {
 	line-height: 1.6;
 	font-family: 'HelveticaNeueW01-45Ligh', sans-serif;
 	font-weight: 300;
-	padding-top: 50px;
+	padding-top: 5%;
+	padding-left: 6%;
 }
 
 .image-container-left{
@@ -208,38 +201,27 @@ a {
 	line-height: 1.6;
 	font-family: 'HelveticaNeueW01-45Ligh', sans-serif;
 	font-weight: 300;
-	padding-top: 50px;
-	padding-right: 90px;
+	padding-top: 4.5%;
+  padding-left: 14%;
 }
 
 
-
-.wrapper {
-	display: block;
-	width: 100%;
-	margin: 0 auto;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-	margin: 0;
-	padding: 0;	
-	display: block;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1;
-
+@media \0screen {
+  img { 
+    width: auto; /* for ie 8 */
+  }
 }
+
 
 
 .main-header{
-	width: 100%;
 	display: block;   
 	position: relative;
+	height: auto;
+  max-width: 100%;
 }
 
 .main-nav {
-	margin-top: 2px;
 	border: 0;
 	outline: 0;
 	font-size: 100%;
@@ -250,7 +232,7 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	margin-left: 3%;
-	margin-top: 10px;
+	margin-top: 1%;
 	padding-right: 5%;
 	position: relative;
 	
@@ -275,7 +257,7 @@ a.about-link {
 	color: white;
 	background: none repeat scroll 0 0 #9FAC05;
 	padding: 5px;
-	margin-right: 5px;
+	margin-right: .4%;
 	float: right;
 }
 
@@ -283,7 +265,7 @@ a.register-link {
 	color: white;
 	background: none repeat scroll 0 0 #EF722F;
 	padding: 5px;
-	margin-right: 5px;
+	margin-right: .4%;
 	float: right;
 }
 
@@ -291,7 +273,7 @@ a.signin-link {
 	color: white;
 	background: none repeat scroll 0 0 #0AA899;
 	padding: 5px;
-	padding-left: 5px;
+	padding-left: .4%;
 	float: right;
 }
 
@@ -310,35 +292,7 @@ a.signin-link {
 }
 
 
-            
-.temp-main-header-stretch {
-	display: block;
-	float: right;
-	padding: 13px 0;
-	margin: 0 auto;
-	width: 95.46875%;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-	clear: both;
-	content: "";
-	display: table;
-	line-height: 1;
-}
 
-
-.temp-main-nav {
-	 float: left;
-	  
-}
-
-.next {
-   margin-top: 40px;
-   position: relative;
-   	
-}
 
 
 .light-logo {
