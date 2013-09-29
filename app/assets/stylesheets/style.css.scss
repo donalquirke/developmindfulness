@@ -31,22 +31,29 @@ body {
    	position: absolute;
    	right: 0;
    	left: 0;
+    margin-top: 45px;
+    width: 100%;
+    z-index: 1;
+	
+	h4 {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 300;
+  }
+  
+  h1 {  
+    font-family: 'HelveticaNeueW01-Thin';
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.1;
+    text-shadow: none;
+    color: white;
     text-align: center;
     vertical-align: middle;
-    margin-top: 65px;
     width: 100%;
-    color: white;
-    z-index: 1;
-    font-size: 40px;
-	  line-height: 1.8;
-	  text-shadow: none;
-	
-	h2 {
-    color: white;
-    font-size: 33px;
-    line-height: 1.8; 
-    text-shadow: none;
-    font-weight: normal;
+    text-rendering: optimizelegibility;
   }
 }
 
@@ -83,14 +90,17 @@ body {
 
 
 #first-product-section {
+  height: 525px;
 	padding-top: 90px;
 	padding-bottom: 90px;	
+	width: 100%;
 }
 
 #second-product-section {
 	height: 525px;
 	padding-top: 0;
 	padding-bottom: 7px;	
+	width: 100%;
 }
 
 #first-product-section #second-product-section h2 {
