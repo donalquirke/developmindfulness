@@ -2,8 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
-
+# These are need to effectively manage memcashier free add on on heroku
 gem 'dalli'
+gem 'cache_digests'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
