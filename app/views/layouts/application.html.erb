@@ -19,7 +19,7 @@
 <!-- Relax. Let go. Grow. -->
 <!-- Open. Let go. Grow. -->
 <body>	
-		
+   <%= cache "vid_streaming" do %>
 	<div id="container">
 		<div id="main-banner">
 			<h1>You live moments. Find more of them. </h1>
@@ -31,6 +31,7 @@
 			<source src="https://moremindfully.s3.amazonaws.com/Dewdrop.ogv" type="video/ogg" />
         </video>
     </div>   
+    <% end %>
          
     <div class="main-header">
     	<nav class="main-nav">  
