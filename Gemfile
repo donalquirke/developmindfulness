@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 gem 'dalli'
 gem 'cache_digests'
 
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -14,6 +15,14 @@ group :development, :production, :test do
   gem 'rails_12factor'
 end
 
+group :production do
+  gem "kgio"
+end
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -54,10 +63,6 @@ gem 'haml'
 #gem 'bcrypt-ruby'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
-group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller'
-end
 
 
 
