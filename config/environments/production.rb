@@ -28,6 +28,14 @@ Developmindfulness::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+  
+  # Enable the asset pipeline
+  #config.assets.enabled = true
+  config.assets.precompile += %w( style.css ) 
+  config.assets.paths << "#{Rails.root}/app/assets/videos"
+  
+  
+  
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

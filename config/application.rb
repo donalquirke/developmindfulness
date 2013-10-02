@@ -55,12 +55,14 @@ module Developmindfulness
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
+    # Dq... commented these out, and copied them to devlopment.rb. Might need to also have them in production.rb
     # Enable the asset pipeline
-    config.assets.enabled = true
-    config.assets.digest = true
-    config.assets.paths << "#{Rails.root}/app/assets/videos"
+    #config.assets.enabled = true
+    #config.assets.digest = true
+    #config.assets.precompile += %w( style.css ) 
+    #config.assets.paths << "#{Rails.root}/app/assets/videos"
     
-    config.assets.precompile += %w( style.css ) 
+    
     
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
