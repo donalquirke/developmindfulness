@@ -13,7 +13,7 @@ Developmindfulness::Application.configure do
 
   #config.action_controller.asset_host = "http://moremindfully.s3.amazonaws.com"
 
-  config.action_controller.asset_host = "http://s1eb9p4apiyy7m.cloudfront.net"
+  config.action_controller.asset_host = "http://d299dq65xxk511.cloudfront.net"
 
 
 
