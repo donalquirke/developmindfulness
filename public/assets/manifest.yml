@@ -25,6 +25,8 @@ application.css: application-08b35e89c0176aa96584902e56ae8282.css
 application/index.css: application-08b35e89c0176aa96584902e56ae8282.css
 bigvideo.png: bigvideo-7f55ff2699c7fa6faf8d8dae73566c6f.png
 bigvideo/index.png: bigvideo-7f55ff2699c7fa6faf8d8dae73566c6f.png
+style.css: style-08b35e89c0176aa96584902e56ae8282.css
+style/index.css: style-08b35e89c0176aa96584902e56ae8282.css
 jquery-ui/animated-overlay.gif: jquery-ui/animated-overlay-602eee4c79a4796b02bb6442948c9e28.gif
 jquery-ui/animated-overlay/index.gif: jquery-ui/animated-overlay-602eee4c79a4796b02bb6442948c9e28.gif
 jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png: jquery-ui/ui-bg_flat_0_aaaaaa_40x100-7d1197a52442bc56fcad60d0390f4b32.png

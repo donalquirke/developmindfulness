@@ -60,7 +60,7 @@ module Developmindfulness
     config.assets.digest = true
     config.assets.paths << "#{Rails.root}/app/assets/videos"
     
-    config.assets.precompile += %w( style.css.scss  ) 
+    config.assets.precompile += %w( style.css ) 
     
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
