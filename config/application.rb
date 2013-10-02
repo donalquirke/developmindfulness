@@ -58,7 +58,10 @@ module Developmindfulness
     # Enable the asset pipeline
     config.assets.enabled = true
     config.assets.digest = true
-
+    config.assets.paths << "#{Rails.root}/app/assets/videos"
+    
+    config.assets.precompile += %w( style.css.scss  ) 
+    
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end
