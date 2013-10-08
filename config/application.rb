@@ -59,7 +59,7 @@ module Developmindfulness
     
     # Enable the asset pipeline   
     config.assets.enabled = true
-    # config.assets.digest = true   # <<< This line stops changes to css styling being picked up in development
+    config.assets.digest = true   # <<< This line stops changes to css styling being picked up in development
     config.assets.precompile += %w( style.css ) 
     config.assets.paths << "#{Rails.root}/app/assets/videos"
     
