@@ -13,6 +13,7 @@ module Developmindfulness
   class Application < Rails::Application
     
     config.assets.initialize_on_precompile = false
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -55,13 +56,12 @@ module Developmindfulness
     # parameters by using an attr_accessible or attr_protected declaration.
     config.active_record.whitelist_attributes = true
 
-    # Dq... commented these out, and copied them to devlopment.rb. Might need to also have them in production.rb
-    # Enable the asset pipeline
-    #config.assets.enabled = true
-    #config.assets.digest = true
-    #config.assets.precompile += %w( style.css ) 
-    #config.assets.paths << "#{Rails.root}/app/assets/videos"
     
+    # Enable the asset pipeline   
+    config.assets.enabled = true
+    # config.assets.digest = true   # <<< This line stops changes to css styling being picked up in development
+    config.assets.precompile += %w( style.css ) 
+    config.assets.paths << "#{Rails.root}/app/assets/videos"
     
     
     # Version of your assets, change this if you want to expire all your assets

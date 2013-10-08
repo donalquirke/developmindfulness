@@ -31,17 +31,9 @@ Developmindfulness::Application.configure do
 
   # Do not compress assets
   config.assets.compress = false
-
   # Expands the lines which load the assets
-  config.assets.debug = false
+  config.assets.debug = true  
+  config.assets.prefix = "/dev-assets"
   
-  #config.assets.prefix = "/dev-assets"
-  
-     # Enable the asset pipeline
-    config.assets.enabled = true
-    config.assets.digest = false
-    config.assets.precompile += %w( style.css ) 
-    config.assets.paths << "#{Rails.root}/app/assets/videos"
-   
 
 end

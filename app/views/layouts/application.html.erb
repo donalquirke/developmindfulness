@@ -23,22 +23,25 @@
 	<div id="container">
 		<div id="main-banner">
 			<h1>You live moments. Find more of them. </h1>
-			<h4>MoreMindfully.com is here to help you do mindfulness and create possibilities. </h4>
+			<h4>MoreMindfully.com can help you do mindfulness and create possibilities. </h4>
 		</div>
         <video id="player" autoplay loop autobuffer>
         	<!-- <source src="https://moremindfully.s3.amazonaws.com/Dewdrop_640.mp4" type="video/mp4" />
 			<source src="https://moremindfully.s3.amazonaws.com/Dewdrop.webm" type="video/webm" />
 			<source src="https://moremindfully.s3.amazonaws.com/Dewdrop.ogv" type="video/ogg" /> -->
-			<source src="assets/videos/Dewdrop_640.mp4" type="video/mp4" />
+			<!-- <source src="assets/videos/Dewdrop_640.mp4" type="video/mp4" />
 			<source src="assets/videos/Dewdrop.webm" type="video/webm" />
-			<source src="assets/videos/Dewdrop.ogv" type="video/ogg" />
+			<source src="assets/videos/Dewdrop.ogv" type="video/ogg" /> -->
+			<source src="assets/videos/app_video.mp4" type="video/mp4" />
+			<source src="assets/videos/app_video.webm" type="video/webm" />
+			<source src="assets/videos/app_video.ogv" type="video/ogv" />
         </video>
     </div>   
     <% end %>
          
     <div class="main-header">
     	<nav class="main-nav">  
-      		<a class="logo-link" href="/company/" id="nav-logo" title="Optimal.Mindfulness">Optimal Mindfulness</a>    					
+      		<a class="logo-link" href="/company/" id="nav-logo" title="MoreMindfully.com">MoreMindfully.com</a>    					
           	<a class="signin-link" href="/Contact/" title="Contact us">Contact Us</a>
           	<a class="register-link" href="/Live/" title="Live more mindfully">Living</a>  
       		<a class="about-link" href="/Learn/" title="Learn mindfulness">Learning</a>  
@@ -51,14 +54,14 @@
    			<div class="first-row-text" style="margin-top: 17.73333333333333px; opacity: 0.7466666666666667;">
                 <h2>Time for you.</h2>
                 <p>Research has shown that people who dwell on the past and future are less likely to be happy than people who concentrate on the present.</p> 
-                <p>With mindfulness meditation you can get a break from an overly busy mind and find peace happiness and silence. </p>
-                <p> Using mindfulness you
-                	can interrupt unhelpful habitual patterns of thought and behavior. </p>
+                <p>With mindfulness you can get a break from an overly busy mind and find peace, happiness and stillness.
+                You
+                	can interrupt unhelpful habitual patterns of thought and behaviour and change how you experience Life.</p>
 				<a href="/" >Find out about learning mindfulness.</a>
 			</div>
 			<div class="image-container-right">
 				<!--  <img src="https://moremindfully.s3.amazonaws.com/people2.jpg" class="img-responsive" alt="Smiling Happy People"> -->
-				<img src="/assets/people2.jpg" class="img-responsive" alt="Smiling Happy People">
+				<%= image_tag "people2.jpg", :class=>"img-responsive"  %>
 			</div>
    		</div>   	
    </div>	    
@@ -67,13 +70,13 @@
    		<div class="row">
    			<div class="image-container-left" style="position: relative;">
 				<!-- <img src="https://moremindfully.s3.amazonaws.com/NY%20Bike%20Journey.jpg" class="img-responsive" alt="Mindful Bike Journey"> -->
-				<img src="/assets/NY%20Bike%20Journey.jpg" class="img-responsive" alt="Mindful Bike Journey">
+				<%= image_tag "NY%20Bike%20Journey.jpg", :class=>"img-responsive"  %>
 			</div>
    			<div class="first-row-text" id="second-row-text" style="margin-top: 17.73333333333333px; opacity: 0.7466666666666667;">
                 <h2>More mindful where it matters.</h2>
-                <p>Mindfulness is simple. Yet being mindful is difficult. </p>
-                <p>Learning mindfulness meditation is one thing. Managing to be mindful in everyday life is something else.</p>
-                <p>	We have an app to help you with that.</p>
+                <p>Mindfulness is simple. Being mindful is difficult. </p>
+                <p>Learning mindfulness meditation is one thing, managing to be mindful in everyday life is something else.
+                We have an app to help you with that.</p>
 				<a href="/" >Find out about living more mindfully.</a>
 			</div>
 
