@@ -4,7 +4,7 @@ html {
 
 body {
 	background: #FFF;
-	font-family: 'Open Sans',Verdana, Arial, Helvetica, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	-webkit-transition: opacity 1s ease .1s;
 	-moz-transition: opacity 1s ease .1s;
 	-ms-transition: opacity 1s ease .1s;
@@ -166,12 +166,46 @@ a {
 	font-family: 'HelveticaNeueW01-Thin';
 	width: 40.5%;
 	padding-left: 15%;
+	
+	h2 {
+	   -webkit-margin-before: 0.83em;
+     -webkit-margin-after: 0.83em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+     display: block;  
+     margin-top: 25px;
+     font-size: 53.15px;
+     line-height: 1;
+     margin: 0;
+     color: #323436;
+     font-family: 'HelveticaNeueW01-Thin';
+     font-weight: 100;
+     width: 100%;
+     text-rendering: optimizelegibility;
+     opacity: 1;
+	}
+	
+	p {
+	  margin: 23px 0 12px;
+    font-size: 18.15px;
+    line-height: 26px;
+    font-family: 'HelveticaNeueW01-Thin';
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	}
+	
 }
 
 #second-row-text {
   padding-left: 4%;
   width: 28.5%;
 }
+
 
 
 .image-container-right{
