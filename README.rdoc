@@ -18,3 +18,7 @@ http://blog.firmhouse.com/complete-guide-to-serving-your-rails-assets-over-s3-wi
 Uses gems 'dalli' and 'cache_digests' to manage Heroku memcashier
 http://blog.firmhouse.com/the-first-of-three-easy-things-we-did-to-make-our-blog-engine-super-fast
 
+Uses a favicon created by me and stored in AWS S3 bucket
+
+Logos created and design by me using Adobe Photoshop and Illustrator
+
