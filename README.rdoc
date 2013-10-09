@@ -13,6 +13,8 @@ Video created using Microsoft Cliplet software to reduce file fize. Further file
 Assets stored on AWS S3 bucket.
 
 Uses gem asset asset_sync to deliver the assets with AWS CloudFronte (geographically located servers)
+http://blog.firmhouse.com/complete-guide-to-serving-your-rails-assets-over-s3-with-asset_sync
 
 Uses gems 'dalli' and 'cache_digests' to manage Heroku memcashier
+http://blog.firmhouse.com/the-first-of-three-easy-things-we-did-to-make-our-blog-engine-super-fast
 

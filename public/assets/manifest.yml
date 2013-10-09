@@ -19,6 +19,10 @@ light-logo.svg: light-logo-7ba2377d0a86d5983e80ccdd06f643c7.svg
 light-logo/index.svg: light-logo-7ba2377d0a86d5983e80ccdd06f643c7.svg
 loading_dewdrop.gif: loading_dewdrop-7adaca11dee33919e26e5a7b72aee5fb.gif
 loading_dewdrop/index.gif: loading_dewdrop-7adaca11dee33919e26e5a7b72aee5fb.gif
+logo 150x160.png: logo 150x160-f76135dc1db0601d47f57663b1590e8d.png
+logo 150x160/index.png: logo 150x160-f76135dc1db0601d47f57663b1590e8d.png
+logo 200x200.png: logo 200x200-fb8d2bd3bc1783f357406aa0fb846285.png
+logo 200x200/index.png: logo 200x200-fb8d2bd3bc1783f357406aa0fb846285.png
 people - copia.jpg: people - copia-6aca0b4a999c730be821acd882d327b6.jpg
 people - copia/index.jpg: people - copia-6aca0b4a999c730be821acd882d327b6.jpg
 people.jpg: people-6aca0b4a999c730be821acd882d327b6.jpg
@@ -35,8 +39,8 @@ application.css: application-210e1a980df6b7b4713f3c2f704b383a.css
 application/index.css: application-210e1a980df6b7b4713f3c2f704b383a.css
 bigvideo.png: bigvideo-7f55ff2699c7fa6faf8d8dae73566c6f.png
 bigvideo/index.png: bigvideo-7f55ff2699c7fa6faf8d8dae73566c6f.png
-style.css: style-67558bbe629358b97f8cae0c11d48097.css
-style/index.css: style-67558bbe629358b97f8cae0c11d48097.css
+style.css: style-02fae0b2b69e3cb5ee5bea0535a3d9a6.css
+style/index.css: style-02fae0b2b69e3cb5ee5bea0535a3d9a6.css
 jquery-ui/animated-overlay.gif: jquery-ui/animated-overlay-602eee4c79a4796b02bb6442948c9e28.gif
 jquery-ui/animated-overlay/index.gif: jquery-ui/animated-overlay-602eee4c79a4796b02bb6442948c9e28.gif
 jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png: jquery-ui/ui-bg_flat_0_aaaaaa_40x100-7d1197a52442bc56fcad60d0390f4b32.png
